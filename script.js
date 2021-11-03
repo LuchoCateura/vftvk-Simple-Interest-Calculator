@@ -6,5 +6,5 @@ function compute()
 	var ar = p*(ir/100)*y;
 	var fy = 2021+y;
 
-	document.getElementById("ResultText").innerHTML = "If you deposit " + p + ",</br> at an interest rate of " + ir + " %.</br> You will receive an amount of " + ar + ",</br>in the year of "+ fy;
+	document.getElementById("ResultText").innerHTML = "If you deposit <mark>" + p + "</mark>,</br> at an interest rate of <mark>" + ir + "</mark> %.</br> You will receive an amount of <mark>" + ar + "</mark>,</br>in the year of <mark>" + fy + "</mark>";
 }
